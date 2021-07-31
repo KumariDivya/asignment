@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="name">
+            <input type="text" class="field" onkeyup="myFunction()" placeholder="Search for names..">
+            <div class="text">NAME</div>
+        </div>
+        <div class="undone-action">
+            <div class="undone"></div>
+            <div class="text">UNDONE</div>
+        </div>
+        <div class="done-action">
+            <div class="done"></div>
+            <div class="text">DONE</div>
+        </div>
+        <div class="new-action">
+            <div class="new"><span class="material-icons">
+                    add_circle
+                </span></div>
+            <div class="text">NEW</div>
+        </div>
+    </div>
+    <div id="grid">
+        <table id="details">
+            <tr>
+              <th>id</th>
+              <th>name(sort)</th>
+              <th>priority(sort)</th>
+              <th>task(sort)</th>
+              <th>actions/state(done|undone|<br>
+                delete)</th>
+            </tr>
+          </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

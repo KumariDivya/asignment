@@ -1,0 +1,6 @@
+for searching by name simply write name in text box.
+
+on clicking haeding of the table you can sort on the basis of that haeding
+
+on single click on done /undone button it will show done /undone task on double click it toogle it state and show
+undone /done tasak
